@@ -79,7 +79,7 @@ def run_flashcards(cards: List[Dict[str, Any]]) -> None:
 
     for i, card in enumerate(cards, start=1):
         print("=" * 70)
-        print(f"Question {i}/{total}")  # <-- This stays sequential, but cards are random
+        print(f"Question {i}/{total} | From file: {card["source_file"]}")  # <-- This stays sequential, but cards are random
         print(card["question"])
         print()
 
