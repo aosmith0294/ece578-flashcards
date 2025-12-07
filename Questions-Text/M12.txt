@@ -1,0 +1,71 @@
+Points: 11.2 Title: Module 12 Uplink PHY Design and Uplink Reference Symbols
+1. Which of the following statements is not correct?
+a. SC-FDMA is advantageous over 3G CDMA technology, since SC-FDMA maintains better orthogonality of uplink transmissions from different users due to the use of a cyclic prefix. 
+*b. SC-FDMA transmits all the symbols over a single carrier and shorter symbol durations.
+c. SC-FDMA transmitter/receiver includes additional DFT/IDFT blocks over an OFDMA transmitter/receiver. 
+d. DFT Spread OFDM is an alternative name for SC-FDMA. 
+e. Size of the DFT at a SC-FDMA transmitter is typically lower than the size of the IFFT at the transmitter. 
+
+Points: 11.2 Title: Module 12 Uplink PHY Design and Uplink Reference Symbols
+2. Which of the following statements is not correct?
+a. Other than the outputs of the DFT block, IFFT block at an uplink SC-FDMA transmitter receives all zeros as inputs.  
+b. A UE learns the frequency resources to schedule its uplink SC-FDMA transmission by reading the PDCCH transmission of the eNB in the downlink. 
+*c. SC-FDMA uses a guard band instead of a cyclic prefix. 
+d. A SC-FDMA transmission has a lower PAPR and cubic metric when compared with an OFDMA transmission. 
+e. SC-FDMA with 16-QAM modulation has a larger PAPR than a SC-FDMA with QPSK modulation. 
+
+Points: 11.2 Title: Module 12 Uplink PHY Design and Uplink Reference Symbols
+3. Which of the following statements is not correct?
+a. One of the benefits of SC-FDMA over 3G CDMA is that it enables simple, single-tap frequency-domain equalization. 
+b. Output of the FFT block in a SC-FDMA receiver is followed by several parallel IDFT blocks, each corresponding to a different UE. 
+c. A localized SC-FDMA transmission has lower PAPR than a distributed SC-FDMA transmission. 
+d. Distributed SC-FDMA better benefits from frequency diversity (and hence has a better spectral efficiency) than a localized SC-FDMA. 
+*e. In a SC-FDMA receiver, frequency domain equalization is performed after the IDFT block. 
+
+Points: 11.2 Title: Module 12 Uplink PHY Design and Uplink Reference Symbols
+4. Which of the following statements is not correct?
+a. All SC-FDMA transmissions in LTE Releases 8, 9 are based on localized SC-FDMA. 
+b. In Release 10 of LTE, clustered DFT-S-FDMA is introduced, which allows partitioning of a single SC-FDMA transmission into multiple clusters. 
+c. Clustered DFT-S-FDMA improves the channel dependent scheduling performance compared to localized SC-FDMA, but has a larger PAPR. 
+d. In LTE, SC-FDMA uses the same parameterization as OFDMA. 
+*e. In the uplink, RRC and Kaiser windows are mandated as pulse shaping filters for SC-FDMA. 
+
+Points: 11.2 Title: Module 12 Uplink PHY Design and Uplink Reference Symbols
+5. Which of the following statements is not correct?
+a. One of the roles of an uplink reference symbol is to enable channel estimation to help in coherent demodulation. 
+*b. One other role of uplink reference symbols in an FDD based duplexing is to estimate the channel quality for  downlink scheduling purposes. 
+c. One other role of uplink reference symbols is to estimate the direction-of-arrival to support downlink beamforming. 
+d. There are two types of uplink reference symbols, Demodulation RS (DM-RS) and Sounding RS (SRS). 
+e. Uplink reference symbols can be used for timing estimation purposes.
+
+Points: 11.2 Title: Module 12 Uplink PHY Design and Uplink Reference Symbols
+6. Which of the following statements is not correct?
+a. DM-RS is primarily used for channel estimation for coherent demodulation. 
+b. SRS is primarily used for channel quality determination to enable frequency selective scheduling in the uplink. 
+*c. DM-RS occupies a separate bandwidth than PUSCH and PUCCH. 
+d. SRS can occupy a different bandwidth than UE data to enable wideband channel sounding. 
+e. Most uplink reference symbols are based on Zadoff-Chu sequences. 
+
+Points: 11.2 Title: Module 12 Uplink PHY Design and Uplink Reference Symbols
+7. Which of the following statements is not correct?
+a. SRS can be transmitted with different transmission periods, ranging between 2 ms to 320 ms.
+b. Transmitting SRS more frequently helps in obtaining more up to date information about the uplink channel, but introduces more overhead.
+*c. There can be SRS transmission from only one user at a given subframe, and SRS transmissions can not be multiplexed from multiple users in that subframe.
+d. If the uplink channel is not changing frequently, it is better to transmit SRS less often. 
+e. Full bandwidth SRS transmission gives most comprehensive information over the whole bandwidth for scheduling purposes; however, UEs far away from the eNB may have difficulties to transmit at maximum power over the whole bandwidth. 
+
+Points: 11.2 Title: Module 12 Uplink PHY Design and Uplink Reference Symbols
+8. Which of the following statements is not correct?
+a. One of the roles of Uplink Reference Symbols is channel quality estimation for uplink scheduling. 
+b. DeModulation RS (DM-RS) is related to transmissions of uplink data on the Physical Uplink Shared CHannel (PUSCH) and/or the Physical Uplink Control CHannel (PUCCH).
+*c. Sounding RS (SRS) is primarily used for channel estimation for coherent demodulation.
+d. Sounding RS (SRS) is not related to PUSCH/PUCCH transmissions.
+e. In LTE, UL RSs are time multiplexed with data and DM-RS occupies the same bandwidth as PUSCH and PUCCH.
+
+Points: 11.2 Title: Module 12 Uplink PHY Design and Uplink Reference Symbols
+9. Which of the following statements is not correct?
+a. Most uplink reference signals in LTE are based on Zadoff-Chu sequences.
+b. DFT spreading is not applied to the RS sequence in LTE uplink.
+c. Orthogonality among users is maintained as long as the cyclic shifts are longer than the channel impulse response.
+d. LTE may operate in RS sequence hopping or RS sequence planning modes in the uplink.
+*e. Long-block DM-RS (single symbol per subframe) yields a better block error rate at high UE velocities compared to short-block DM-RS (two symbols per subframe). 

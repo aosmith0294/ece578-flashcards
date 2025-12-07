@@ -1,0 +1,55 @@
+Points: 14.5 Title: Module 7 Reference Signals and Channel Estimation
+1. Which of the following statements is not correct?
+a. LTE receivers require estimation of the channel for coherent detection of the transmitted symbols. 
+b. Channel introduces phase rotation and scaling to the transmitted complex OFDM symbols, as long as the multipath replicas of the transmitted signal arrive within the cyclic prefix at the receiver. 
+c. In order to coherently detect the transmitted symbols, known reference signals (with no data) need to be transmitted to enable channel estimation. 
+*d. Common reference symbols (CRSs) in LTE are located at the four corners of a resource block. 
+e. LTE uses reference symbols (RSs) for channel estimation, which are orthogonal to the data symbols. 
+
+Points: 14.5 Title: Module 7 Reference Signals and Channel Estimation
+2. Which of the following statements is not correct?
+a. After estimating the channels over known RSs, different interpolation techniques can be used based on these channel estimates, to obtain an estimate of the channel over the data symbols. 
+b. Five different RSs in LTE downlink are common (cell-specific) reference symbols (CRSs), UE-specific RSs, MBSFN-specific RSs, positioning RSs, and channel state information (CSI) RSs. 
+c. Different RS patterns are transmitted through different antenna ports in LTE. 
+d. A UE does not differentiate whether a reference symbol transmitted through an antenna port comes from a single antenna or multiple antennas; the channel estimates obtained on that antenna port are used for all the data transmitted through that particular antenna port. 
+*e. CRS can be used by the UEs to demodulate downlink control and data channels, generate CSI feedback, calculate RSRP/RSRQ, and realize beamforming to each specific UE. 
+
+Points: 14.5 Title: Module 7 Reference Signals and Channel Estimation
+3. Which of the following statements is not correct?
+a. The reason that different RSs are used for different antenna ports in LTE is that the observed channel at a UE would be different in different antenna ports. 
+*b. With the FDD mode, an eNB may scale the number of antennas to an infinitely large number in future releases of LTE to significantly boost the downlink throughput.    
+c. Considering Releases 8, 9, and 10, there are over 20 antenna ports combined in LTE. 
+d. The placement of CRSs in the form of a diamond shape minimizes the mean square error of channel estimates. 
+e. With the specified time/frequency separation of the CRSs in LTE, UE speeds up to ~500 km/hour, and RMS delay spread up to ~991 ns can be supported in LTE.
+
+Points: 14.5 Title: Module 7 Reference Signals and Channel Estimation
+4. Which of the following statements is not correct?
+a. CRSs on antenna ports 2, 3 in LTE cannot support as high UE velocities as the CRSs on antenna ports 0, 1. 
+*b. All CRSs in LTE are modulated with BPSK for robustness and to achieve low PAPR. 
+c. CRS unambiguously carries one of the 504 physical cell identities (PCIs). 
+d. The CRS may be off-set in frequency to 6 unique positions depending on the value of the PCI, which prevents CRS collusions between CRSs for up to six adjacent cells. 
+e. Power of the CRSs may be boosted to a value up to 6 dB larger than the data symbols. 
+
+Points: 14.5 Title: Module 7 Reference Signals and Channel Estimation
+5. Which of the following statements is not correct?
+a. If 4 antennas are used at an eNB, a UE may have to obtain four different channel estimates. 
+b. A UE can be configured by the RRC to receive UE-specific RSs to enable beamforming. 
+*c. Density of the Rel-8 UE-specific RSs is larger than the density of the CRSs with 4 antennas. 
+d. With Rel-9 dual-layer beamforming, it is possible to transmit two spatial layers to one UE, or, single-layer transmission to two UEs. 
+e. Channel characteristics between a transmitter and a receiver are affected by the number of transmit/receive antennas, transmission bandwidth, carrier frequency, cell configuration, and the speed difference between the eNB and the UE. 
+
+Points: 14.5 Title: Module 7 Reference Signals and Channel Estimation
+6. Which of the following statements is not correct?
+a. Carrier frequencies and the system bandwidth affect the scattering nature of the channel. 
+*b. In a wide sense stationary uncorrelated scattering (WSS-US) channel model, channel samples obtained at two different time instants corresponding to a given multipath component are uncorrelated. 
+c. Cell deployment (size, location, etc.) affect the multipath characteristics, delay spread, and spatial correlation characteristics. 
+d. A channel scattering function jointly captures the Doppler spectrum and power delay profile of a multipath channel. 
+e. It is possible to observe a different Doppler spectrum over different multipath components in a WSS-US channel model. 
+
+Points: 14.5 Title: Module 7 Reference Signals and Channel Estimation
+7. Which of the following statements is not correct?
+*a. A Doppler spectrum characterizes the frequency selectivity of a channel between a transmitter and a receiver. 
+b. Knowledge about the time correlation, the frequency correlation, and the spatial correlation may improve the accuracy of a channel estimator at a receiver. 
+c. An MMSE channel interpolator yields a better accuracy than a linear interpolator, at the expense of increased implementation complexity. 
+d. With time-domain channel estimation, information on the correlation between consecutive  time-domain OFDM symbols can be used to jointly estimate the channels over multiple OFDM symbols. 
+e. Channel estimation algorithms are implementation dependent and not standardized in LTE.
