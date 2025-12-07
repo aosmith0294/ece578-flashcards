@@ -1,0 +1,104 @@
+Points: 8 Title: Module 11 Multi-User Scheduling, Interference Coordination, and Broadcast Channels
+1. Which of the following statements is not correct?
+*a. Scheduling in LTE has the purpose of allocating resource blocks transmission powers for each ten milisecond frame duration, in order to optimize certain performance metrics.
+b. Scheduling in a typical single – cell cellular system aims to optimize performance metrics such as: max, min or average throughput, delay, total or per user spectral efficiency, and outage probability.
+c. Scheduling is coupled tightly with link adaptation and HARQ.
+d. CSI and traffic measurements are used by the scheduling algorithms.
+e. Frequent transmission of CSI feedback improves scheduling performance, at the expense of large overhead.
+
+Points: 8 Title: Module 11 Multi-User Scheduling, Interference Coordination, and Broadcast Channels
+2. Which of the following statements is not correct?
+a. For users located at the center of the cell, the maximum sum throughput is achieved when both eNodeB are transmitting at maximum power.
+*b. For users located at the edge of the cell, the maximum sum throughput is achieved when both eNodeB are transmitting at maximum power in order to guarantee better SNR.
+c. The scheduler at the eNodeb can treat UEs differently depending on whether they are cell – edge or cell-center UEs.
+d. For scheduling purposes, each cell is divided in two parts, inner and outer.
+e. Frequency domain ICIC was standardized in Release 8/9.
+
+Points: 8 Title: Module 11 Multi-User Scheduling, Interference Coordination, and Broadcast Channels
+3. Which of the following statements is not correct?
+a. The eNB is responsible for scheduling users in both uplink and downlink.
+b. Different traffic queues in the eNB typically have different QoS constraints.
+c. Queue lengths depend heavily on the Hybrid Automatic Repeat request (HARQ) operation.
+*d. Fair scheduling maximizes the sum of transmit data rates.
+e. Opportunistic scheduling makes use of multiuser diversity.
+
+Points: 8 Title: Module 11 Multi-User Scheduling, Interference Coordination, and Broadcast Channels
+4. Which of the following statements is not correct?
+a. The eNB can take into account the interference from neighboring co-channel cells during scheduling operation.
+*b. Delay-limited capacity assumes no latency constraints.
+c. More power is allocated to a scheduled user if the channel is good, and less power otherwise.
+d. During downlink scheduling, the eNB uses CQI reports obtained from the UEs.
+e. During uplink scheduling, the eNB uses sounding reference signals (SRS) or other signals by the UE for scheduling decisions.
+
+Points: 8 Title: Module 11 Multi-User Scheduling, Interference Coordination, and Broadcast Channels
+5. Which of the following statements is not correct?
+*a. The eNB is responsible for scheduling the users only in uplink and not the downlink.
+b. Different traffic queues in the eNB have different QoS.
+c. Frequent transmission of CSI feedback produces large overhead.
+d. In TDD, because of the channel reciprocity property in the downlink and the uplink, feedback overhead can be reduced.
+e. Ergodic (Shannon) capacity assumes that there are no latency constraints for communication.
+
+Points: 8 Title: Module 11 Multi-User Scheduling, Interference Coordination, and Broadcast Channels
+6. Which of the following statements is not correct?
+a. Accurate CSI and traffic information is important for effective operation of a scheduler.
+b. Fair scheduling aims to guarantee a minimum data rate for each user, rather than maximizing the total data rate.
+c. Fair scheduling has low latency, which is important for applications such as VoIP. 
+*d. Opportunistic scheduling offers lower aggregate capacity than fair scheduling.
+e. Opportunistic scheduling needs to wait for each user to have a favorable channel quality.
+
+Points: 8 Title: Module 11 Multi-User Scheduling, Interference Coordination, and Broadcast Channels
+7. Which of the following statements is not correct?
+*a. The eNB is responsible for scheduling in the downlink, while the UE handles uplink scheduling.
+b. In uplink interference coordination, the overload indicator (OI) can take three levels: low, medium, or high.
+c. In practice most of the scheduling algorithms fall between opportunistic scheduling and fair scheduling.
+d. In LTE interference coordination, the scheduler at the eNB can treat UEs differently depending on whether they are cell-edge or cell center UEs.
+e. High interference indicator (HII) can be used to proactively coordinate uplink interference among neighboring cells. 
+
+Points: 8 Title: Module 11 Multi-User Scheduling, Interference Coordination, and Broadcast Channels
+8. Which of the following statements is not correct?
+a. Overall scheduling performance in LTE will be improved if a certain eNB minimizes interference to neighboring eNBs. The eNB should take into account the interference from neighboring co-channel cells.
+b. Ergodic (Shannon) capacity assumes no latency constraints and is defined as the maximum data rate which can be sent over the channel with asymptotically small error probability, averaged over the fading process.
+*c. In LTE, resource scheduling entails that each logical channel has a corresponding QoS description that influence the scheduling decisions made by the UE.
+d. In LTE, the interference from neighboring cells constitutes a limiting factor of performance. The eNB should take into account the interference from neighboring co-channel cells, which can be severe, especially for cell edge users
+e. The optimum (binary) power allocation strategy aims for cell center users to achieve maximum aggregate capacity when both eNBs transmit at maximum power, while cell edge users' aggregate capacity is maximized by allowing only one eNB to transmit.
+
+Points: 8 Title: Module 11 Multi-User Scheduling, Interference Coordination, and Broadcast Channels
+9. Which of the following statements is not correct?
+*a. Multicast supports both downlink and uplink point-to-multipoint connections.
+b. Broadcasting is a simultaneous downlink-only delivery of content to large groups of mobile users (newscasts, weather forecasts, live mobile television, etc).
+c. Multicast requires additional procedures for subscription, authorization, and charging, to ensure the services are targeted to specific users.
+d. In MBMS transmission, multiple cells transmit the same data in a synchronized way (single frequency network) and it appears as one transmission to the UE.
+e. The goal of the MBMS Single Frequency Network is to support a cell-edge spectral efficiency of 1 bps/Hz.
+
+Points: 8 Title: Module 11 Multi-User Scheduling, Interference Coordination, and Broadcast Channels
+10. Which of the following statements is not correct?
+a. In MBMS, if all signals from multiple eNBs arrive within the CP, there will be no ISI.
+b. How the eNBs are synchronized for MBMS purposes is not defined in LTE (typically through GPS). 
+c. MBSFN transmission happens through Physical Multicast Channel (PMCH).
+*d. PMCH uses HARQ  to extend the CP duration by 17 microseconds.
+e. Subcarrier spacing of 7.5 KHz in MBMS transmissions minimizes the overhead; drawback is the larger inter-carrier interference.
+
+Points: 8 Title: Module 11 Multi-User Scheduling, Interference Coordination, and Broadcast Channels
+11. Which of the following statements is not correct?
+*a. Multimedia Broadcast/Multicast Service (MBMS) was introduced in Release 10 of LTE.
+a. MBSFN transmission enhances the SINR at the cell-edge.
+b. MBSFN transmission happens trough Physical Multicast Channel (PMCH).
+c. Certain dedicated subframes are specifically used for MBSFN transmission.
+d. PMCH uses an extended CP duration compared to PDSCH transmissions to support larger multipath delays.
+e. MBSFN reference symbols have a different pattern than CRS, and is denser than CRS for two-layer transmission. 
+
+Points: 8 Title: Module 11 Multi-User Scheduling, Interference Coordination, and Broadcast Channels
+12. Which of the following statements is not correct?
+a. Multicast offers simultaneous downlink-only delivery of content to a managed group of terminals. 
+b. Unicast offers bi-directional point-to-point transmission where the same content may have to be transmitted multiple times to different users (at different resources). 
+*c. Broadcast offers simultaneous uplink-only delivery of content to large groups of mobile users. 
+d. MBMS data may be transmitted from either a single cell or from multiple cells.
+e. Multiple cells transmit data in a synchronized way during MBMS transmission.
+
+Points: 8 Title: Module 11 Multi-User Scheduling, Interference Coordination, and Broadcast Channels
+13. Which of the following statements is not correct?
+*a. The Multimedia Broadcast/Multicast Service (MBMS) is introduced since Rel. 8.
+b. The Multimedia Broadcast/Multicast Service (MBMS) goal is provide efficient delivery of both broadcast and multicast data to users.
+c. Multicast requires additional procedures for subscription, authorization, and charging, to ensure the services are targeted to specific users.
+d. In general, MBMS does not use PDCCH, but uses MCH.
+e. MBSFN transmission enhances the SINR, especially at the cell-edge, where signals from multiple eNBs would normally interfere, but are combined in MBMS.

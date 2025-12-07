@@ -1,0 +1,63 @@
+Points: 12.5 Title: Module 1 Introduction
+1. Which of the following statements is not correct?
+a.  Three major factors for increasing the wireless capacity are spectral efficiency enhancement, use of larger spectrum, and network densification. 
+*b.  Spectral efficiency enhancement is commonly seen as the most influential factor for future wireless capacity enhancements, and it is expected to improve the wireless capacity by at least 56 times within the next 10 years.
+c.  1G wireless systems were based on analog technology. 
+d.  2G cellular systems are commonly known as GSM, and have widespread acceptance around the world.
+e.  Regulatory bodies (ITU-R and regional/national regulators such as FCC)  decide which parts of the spectrum and how much bandwidth may be used by different wireless technologies. 
+
+Points: 12.5 Title: Module 1 Introduction
+2. Which of the following statements is not correct?
+a. Shannon capacity equation gives the maximum achievable capacity for a given bandwidth and SINR.
+b. 3G wireless systems were based on variations of CDMA, and could provide data rates up to 2 Mbps.  
+c. One of the major features of LTE is that it was designed from the start with the goal of evolving the radio access technology towards a packet switched architecture.
+d. System architecture evolution (SAE) involves non-radio aspects of 4G networks, and includes the evolved packet core (EPC). 
+*e. With the introduction of LTE, standardization and improvement for 2G and 3G systems within 3GPP have stopped. 
+
+Points: 12.5 Title: Module 1 Introduction
+3. Which of the following statements is not correct?
+*a. LTE Release-8 can support downlink data rates on the order of 1 Gbps. 
+b. In LTE, user plane latency should be smaller than 10 ms, and connection set-up latency should be smaller than 100 ms.
+c. Peak rates in LTE generally scale with the amount of spectrum used, and (for MIMO systems) with minimum of the number of transmit/receive antennas. 
+d. Peak rate is defined as the maximum throughput that can be achieved per user, assuming whole bandwidth is allocated to a single user with the highest possible modulation/coding order, and when the maximum possible number of antennas are used at the transmitter/receiver. 
+e. Peak rates, while an important indicator, may not be a key differentiator for the success of a particular wireless technology, since they are not typically achieved. 
+
+Points: 12.5 Title: Module 1 Introduction
+4. Which of the following statements is not correct?
+a. In system-level LTE simulations, multi-cell configurations are considered with data transmission to/from multiple mobile users. 
+*b. Voice over IP (VoIP) services in LTE can operate under large time delays.
+c. LTE is required to support UE velocities up to 500 km/h (e.g., bullet trains).
+d. Typical cell radius in LTE is up to 5 km; up to 100 km cell radius may be possible for wide area coverage.
+e. In broadcast mode of LTE, system throughput is limited to what is achievable by the worst-case users. 
+
+Points: 12.5 Title: Module 1 Introduction
+5. Which of the following statements is not correct?
+a.  LTE is required to support transition between RRC_IDLE and RRC_CONNECTED modes in less than 100 ms. 
+b.  Three major technologies that are used in LTE are multicarrier technology, multiple-antenna technology, and application of packet-switching to the radio interface. 
+c.  In OFDM, division of the spectrum into multiple narrowband subcarriers yields robustness against time-dispersion. 
+d.  Inter-symbol interference due to multipath interference can be prevented in OFDM through the use of a cyclic prefix.
+*e.  Dividing a wideband transmitted symbol into multiple narrowband subcarriers necessitate the use of high-complexity equalization techniques in OFDM. 
+
+Points: 12.5 Title: Module 1 Introduction
+6. Which of the following statements is not correct?
+a.  Peak-to-average power ratio of an OFDM signal may be very high. 
+*b.  PAPR problem in OFDM causes a bigger problem at the eNB, than at the UE. 
+c.  SC-FDMA waveform has better PAPR characteristics than OFDM, and hence used in the uplink of Release-8 3GPP LTE systems. 
+d.  One important difference of SC-FDMA from OFDM is that there are additional IFFT/FFT blocks at the transmitter/receiver. 
+e.  SC-FDMA uses incorporation of a guard interval at the start of each transmitted symbol, in order to facilitate low-complexity frequency-domain equalization at the receiver. 
+
+Points: 12.5 Title: Module 1 Introduction
+7. Which of the following statements is not correct? 
+a.  Three types of gains obtained through multiple antennas in LTE are the diversity gain, array gain, and spatial multiplexing gain.  
+b.  In LTE, goal is to transmit very short packets, having a duration on the order of coherence time of the fast fading channel.  
+*c.  Packet size in circuit-switched resource allocation are approximately the same as those in the packet-switched resource allocation. 
+d.  In LTE, packet duration is reduced to 1 ms, from the packet size of 2 ms of HSDPA, its predecessor technology. 
+e.  Short packet duration in LTE enables link adaptation of modulation and code rate. 
+
+Points: 12.5 Title: Module 1 Introduction
+8. Which of the following statements is not correct?
+a. In Release 8 and Release 9 of LTE, a total of 5 UE categories are supported, with achievable downlink data rates ranging from 10 Mbps up to 300 Mbps. 
+b. 64-QAM modulation is supported in the downlink for UE-categories 1-5, while it is only supported by the UE categority-5 in the uplink. 
+c. All UE categories in LTE Release 8/9 should support at least two receive antennas.  
+*d. In Release-8 of LTE, maximum number of downlink MIMO layers that can be received by a UE is 8.
+e. Support for a broadcast mode based on single frequency network type transmissions has been introduced in Release-9 of LTE. 

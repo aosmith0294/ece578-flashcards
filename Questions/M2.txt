@@ -1,0 +1,71 @@
+Points: 11.2 Title: Module 2 Network Architecture and Protocols
+1. Which of the following statements is not correct?
+a.  LTE and service architecture evolution (SAE) are collectively referred as the evolved packet system (EPS). 
+*b.  SAE refers to the evolution of radio access within the EPS and it includes the evolved packet core (EPC).
+c.  EPS uses the concept of EPS bearers to route IP traffic from a gateway in the packet data network (PDN) to the UE. 
+d.  EPS provides the user with IP connectivity to a PDN.
+e.  EPS bearers in LTE are typically associated with a QoS. 
+
+Points: 11.2 Title: Module 2 Network Architecture and Protocols
+2. Which of the following statements is not correct?
+*a. In LTE, multiple bearers are not allowed to be established for a UE. 
+b. An eNB is connected to the mobility management entity (MME) in the EPC through an S1 interface.  
+c. An MME handles NAS security, idle state mobility handling, and EPS bearer control.
+d. Protocols running on an eNB in LTE are RRC, PDCP, RLC, MAC, and PHY. 
+e. An eNB is considered to be within the E-UTRAN, while a PDN gateway is considered to be within the EPC. 
+
+Points: 11.2 Title: Module 2 Network Architecture and Protocols
+3. Which of the following statements is not correct?
+a. The MME creates a UE context when a UE is turned on, which includes dynamic information such as the list of bearers that are established and the terminal capabilities. 
+b. The MME retains the UE context and the information about the established bearers during the idle periods of a UE. 
+*c. During the idle mode, a UE sends an update message to the network to report its latest location whenever the UE moves to a new cell. 
+d. MME is responsible for keeping track of the user locations while the UE is in the idle mode. 
+e. A UE moves into an idle mode to reduce overhead/processing of all UE related information. 
+
+Points: 11.2 Title: Module 2 Network Architecture and Protocols
+4. Which of the following statements is not correct?
+a. UE updates the network whenever it moves to a new tracking area (TA), using a tracking area update (TAU) message. 
+b. A tracking area may be composed of many cells which is a design parameter by an operator; larger number of cells reduces the overhead due to frequent TAU transmissions by the UE, while a smaller number  of cells improves the search process of UE in case of a paging message. 
+*c. When a downlink data is intended to a UE during its idle mode, an MME sends a paging message to the specific eNB that the UE is located, and that eNB pages the UE over the radio interface. 
+d. After receiving a paging message, a UE performs a service request procedure to move into RRC_CONNECTED state. 
+e. UEs without regular access to the network (e.g., without a USIM) are allowed to access to the network in case of emergency calls. 
+
+Points: 11.2 Title: Module 2 Network Architecture and Protocols
+5. Which of the following statements is not correct?
+a. E-UTRAN consists of a network of eNBs.
+*b. In E-UTRAN, the eNBs communicate to each other through the S1 interface. 
+c. For a regular user, there is no centralized controller in E-UTRAN, and its architecture is said to be flat; e.g., the eNBs communicate among each other to handle  the mobility of a UE. 
+d. Non-access stratum (NAS) protocols run between the UEs and the EPC.
+e. Radio related responsibilities of E-UTRAN are radio resource management, header compression, security, positioning, and connectivity to the EPC.
+
+Points: 11.2 Title: Module 2 Network Architecture and Protocols
+6. Which of the following statements is not correct?
+a.  As opposed to earlier generations, LTE integrates the radio controller function into the eNB. 
+b.  Distributed control in LTE eliminates the need for a high-availability and processing-intensive controller, reduces the latency, and improves efficiency. 
+*c.  In LTE, a UE can connect to multiple nodes during a handover, which is referred as soft handover. 
+d.  A drawback of a flat architecture is that as the UE moves, the network must transfer all information related to the UE from one eNB to another (i.e., the UE context, and any buffered data).  
+e.  There are mechanisms in LTE which rely on the use of the X2 interface to avoid loss of data during handover. 
+
+Points: 11.2 Title: Module 2 Network Architecture and Protocols
+7. Which of the following statements is not correct? 
+a.  A network run by an operator in a country is referred as a public land mobile network (PLMN).  
+b.  A roaming user is connected to the E-UTRAN, MME, and S-GW of the visited LTE network.  
+c.  LTE/SAE allows the P-GW of either the visited or the home network (allows access to the home operator's services even while in a visited network) to be used during a roaming procedure. 
+*d.  The radio resource control (RRC) protocol runs in the user plane, and it controls the transition between the RRC_IDLE and RRC_CONNECTED states of a UE, and handles the cell selection and handover procedures. 
+e.  In LTE, multiple bearers with different QoS requirements may be established for the same UE. 
+
+Points: 11.2 Title: Module 2 Network Architecture and Protocols
+8. Which of the following statements is not correct?
+a. Dedicated transmission resources are permanently allocated for minimum guaranteed bit rate (GBR) bearers and they have application such as VoIP. 
+b. Non-GBR bearers have applications such as web browsing and FTP transfer. 
+c. A class identifier for a bearer shows the priority of a bearer, with respect to packet delay budget and acceptable packet loss rate. 
+*d. S1 interface can not be used for intra-LTE mobility (handover between eNBs). 
+e. Seamless mobility minimizes the interruption time during the move of the UE. 
+
+Points: 11.2 Title: Module 2 Network Architecture and Protocols
+9. Which of the following statements is not correct?
+a. Lossless handover tolerates no loss of data.  
+*b. Source eNB can not prepare more than one other eNB for mobility conditions.
+c. Concepts of "too late" or "too  early" handover have been defined in LTE Rel. 9. 
+d. Load balancing, interference coordination and uplink interference management  are handled through the X2 interface in LTE, which facilitates message exchanges among eNBs. 
+e. List of all the recent few calls, along with the visited cells by a UE, can be transferred from one eNB to another.

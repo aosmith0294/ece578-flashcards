@@ -1,0 +1,87 @@
+Points: 9.1 Title: Module 13 PHY Channel Structure, Random Access, and Transmission Procedures for Uplink
+1. Which of the following statements is not correct?
+a. The uplink physical channels are: Physical Random Access Channel (PRACH), Physical Uplink Shared Channel (PUSCH), Physical Uplink Control Channel (PUCCH).
+b. During the PUSCH processing, the OFDM 0.5 subcarrier shift is used to distribute the distortion caused by the DC carrier to multiple subcarriers.
+*c. PUSHC uses only frequency selective scheduling. 
+d. In frequency selective scheduling PUSCH typically uses SRS to choose the best RBs to schedule as well as the corresponding MCS.
+e. Larger SRS bandwidth gives more alternatives for potentially good channels while smaller SRS bandwidth improves channel estimation on the sounded RBs.
+
+Points: 9.1 Title: Module 13 PHY Channel Structure, Random Access, and Transmission Procedures for Uplink
+2. Which of the following statements is not correct?
+a. Physical Uplink Control Channels are transmitted at the edge of the system bandwidth.
+*b. Control signaling from multiple UEs cannot be multiplexed in a single PUCCH region.
+c. PUCCH positions maximize the frequency diversity.
+d. PUCCH may use frequency domain and/or time domain code multiplexing.
+e. In the case of frequency domain code multiplexing different cyclic time shifts of a base sequence is used.
+
+Points: 9.1 Title: Module 13 PHY Channel Structure, Random Access, and Transmission Procedures for Uplink
+3. Which of the following statements is not correct?
+a. Two types of scheduling in PUSCH are: frequency-selective scheduling which makes use of good channel qualities of UEs, and non-frequency-selective scheduling that aims to benefit from frequency diversity.
+b. Frequency selective PUSCH scheduling typically uses SRS to choose the best RBs to schedule, as well as the corresponding MCS.
+c. Larger SRS bandwidths provide more alternatives for potentially good channels.
+d. Smaller SRS bandwidths improve channel estimation on the sounded RBs, but results in missing channel information at certain RBs (which may be good quality).
+*e. SRS can be transmitted at any of the symbols in a SC-FDMA subframe.
+
+Points: 9.1 Title: Module 13 PHY Channel Structure, Random Access, and Transmission Procedures for Uplink
+4. Which of the following statements is not correct?
+*a. The PUSCH typically uses the PMI feedback to choose the best RBs to schedule, as well as the corresponding MCS.
+b. The PUCHH being at the band edges (rather than center) minimizes Out-of-band (OOB) emissions - PUCCH serves as a guard band to a wide-band PUSCH transmission.
+c. Smaller SRS bandwidths: improves channel estimation on the sounded RBs, but results in missing channel information at certain RBs (which may be good quality).
+d. The PUCHH being at the band edges (rather than center) maximizes the UE bandwidth (need to preserve the single carrier nature of transmission).
+e. Uplink control signaling from multiple UEs can be multiplexed in a single PUCCH region.
+
+Points: 9.1 Title: Module 13 PHY Channel Structure, Random Access, and Transmission Procedures for Uplink
+5. Which of the following statements is not correct?
+a. Main goal of the Random Access Channel (RACH)  is to establish UL time synchronization for a UE, which has lost or not yet acquired uplink synchronization.
+b. RACH can be used for ACK/NACK downlink data transmission to an out-of-synch UE.
+c. UEs randomly choose and transmit a random access preamble (ZC-sequence) for RACH transmissions.
+d. The eNB can prevent contention (collision) by allocating a dedicated signature to a UE (contention-free RACH).
+*e. During contention-based random access, the UE transmits the random access response to the eNode B. 
+
+Points: 9.1 Title: Module 13 PHY Channel Structure, Random Access, and Transmission Procedures for Uplink
+6. Which of the following statements is not correct?
+a. When a preamble is detected within a given opportunity, eNB signals the timing adjustment information and uplink resource allocation to the UE. 
+*b. The UEs transmit random preamble signature during contention-free random access.
+c. PRACH resource configuration has 16 total different resource configurations, with different subframe patterns for the random access opportunities.
+d. There are smaller number of PRACH opportunities at smaller bandwidths, which reduces PRACH overhead at the cost of longer waiting times for the UEs.
+e. Orthogonal PRACH slots can be used at neighboring cells to minimize collusions during RACH procedure.
+
+Points: 9.1 Title: Module 13 PHY Channel Structure, Random Access, and Transmission Procedures for Uplink
+7. Which of the following statements is not correct?
+a. Initial timing advance is determined during the random access procedure. 
+b. One of the goals of power control is to balance the need for high transmission power to achieve a given QOS and to reduce the interference to neighboring cells. 
+*c. LTE only uses open-loop power control. 
+d. Closed-loop power control is used only when the UE’s own estimate of required power settings is not satisfactory. 
+e. Closed-loop power control enables faster adaptation of the transmit power to fit into instantaneous channel conditions. 
+
+Points: 9.1 Title: Module 13 PHY Channel Structure, Random Access, and Transmission Procedures for Uplink
+8. Which of the following statements is not correct?
+a. Due to the UE’s movement, we can expect changes in propagation channels and Doppler shifts. 
+b. Exact procedures for estimating the timing advance are implementation-dependent. 
+c. eNB can measure any useful signal for estimating a timing advance. 
+d. Intra-cell interference is less critical in LTE than in WCDMA. 
+*e. Timing-advance ensures that UEs at the cell edge transmit at a later time than the UEs closer to the eNB for synchronous reception at the eNB.
+
+Points: 9.1 Title: Module 13 PHY Channel Structure, Random Access, and Transmission Procedures for Uplink
+9. Which of the following statements is not correct?
+a. In LTE uplink, main goal of the Random Access Chanel (RACH) is to establish UL time synchronization for a UE, which has lost or not yet acquired uplink synchronization.
+b. RACH can be used during the handover procedure, which requires a low latency. 
+c. eNB can prevent contention (collusion) by allocating a dedicated signature to a UE.
+d. During Random Access Response (RAR), eNB correlates the received signal in each RACH opportunity with ALL possible preamble sequences.
+*e. Latency of contention- based approach is predictable.
+
+Points: 9.1 Title: Module 13 PHY Channel Structure, Random Access, and Transmission Procedures for Uplink
+10. Which of the following statements is not correct?
+a. Timing control is critical for uplink intra-cell multiple access.
+b. Power control is critical for maintaining the UE’s QoS, maintaining acceptable UE battery life, and controlling inter-cell interference.
+*c. LTE uses open-loop power control only when UE’s own estimate of required power setting is not satisfactory. 
+d. Initial timing advance is determined during the random access procedure.
+e. During timing advance updates, eNB may measure any useful signal received from the UE for estimation purposes (SRS, DM-RS, CQI, etc.).
+
+Points: 9.1 Title: Module 13 PHY Channel Structure, Random Access, and Transmission Procedures for Uplink
+11. Which of the following statements is not correct?
+a. Contention-based random access has several stages: preamble transmission, random access response, layer 2 and layer 3 message, and contention resolution message.
+b. The eNB can prevent collisions for a UE by allocating a dedicated signature to the UE in the contention-free RACH procedure.
+c. The contention-based RACH procedure can be used for the reestablishment of the connectivity after a radio link failure.
+*d. The initial preamble transmission in RACH happens with closed-loop power control with a fractional path-loss compensation.
+e. Random access preamble formats may adopt different CP durations to combat with multipath, and may use repetition of the random access sequence to increase the transmission distance (coverage) of RACH.

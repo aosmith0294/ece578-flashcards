@@ -1,0 +1,79 @@
+Points: 10 Title: Module 8 Downlink PHY/Control Channels
+1. Which of the following statements is not correct?
+*a.  Downlink data transport channels in LTE are Physical Broadcast Channel (PBCH), Physical Downlink Shared Channel (PDSCH), Physical Multicast Channel (PMCH), and Physical Paging Channel (PPCH)
+b.  Downlink control channels in LTE are Physical Control Format Indicator Channel (PCFICH), Physical Hybrid ARQ Indicator Channel (PHICH), and Physical Downlink Control Channel (PDCCH)
+c. System information in LTE can be transmitted through PBCH or PDSCH. 
+d. The SI is crucial for other channels in the cell to be configured. 
+e. Master information block (MIB) in LTE carriers most frequently transmitted parameters by a cell, needed for initial access to the cell.
+
+Points: 10 Title: Module 8 Downlink PHY/Control Channels
+2. Which of the following statements is not correct?
+a. PBCH can be detected without prior knowledge of the system bandwidth. 
+b. PBCH is always mapped to central 6 resource blocks (in frequency) in a downlink transmission. 
+c. PBCH benefits from time diversity to combat against time varying channels by spreading the 4 PBCH segments into a 40 ms duration, with one PBCH segment transmitted in each frame. 
+*d. A UE should receive all of the 4 PBCH segments (one transmitted in each frame) in order to decode a PBCH. 
+e. Antenna diversity can be applied both at the UE and the eNB side to improve the coverage area of PBCH. 
+
+Points: 10 Title: Module 8 Downlink PHY/Control Channels
+3. Which of the following statements is not correct?
+a. PDSCH is used to carry all user data, broadcast information not carried in PBCH, and the paging messages.
+b. Eight of the nine transmission modes in PDSCH rely on the use of multiple antennas. 
+*c. Modulation formats used in PDSCH are BPSK, QPSK, 16-QAM, and 64-QAM.
+d. Use of 64-QAM in PDSCH is supported by all the LTE UE classes.
+e. PDSCH can use all resource elements which are not used for other purposes, such as those for reference symbols, synchronization signals, PBCH, and control signaling. 
+
+Points: 10 Title: Module 8 Downlink PHY/Control Channels
+4.  Which of the following statements is not correct?
+a. More common approach of mapping user data to PDSCH is that of localized mapping, where a pair of neighboring resource blocks (in time) are mapped to the same UE. 
+b. Distributed resource mapping can be used in PDSCH in order to benefit from frequency diversity, and improve the performance in the presence of deep fades in frequency. 
+c. Distributed mapping is typically used for VoIP services. 
+*d. Physical multicast channel (PMCH) can be transmitted in any subframe in LTE. 
+e. Index of a multicast broadcast services single frequency network (MBSFN) subframe is signaled to a UE as a part of the system information (SI).
+
+Points: 10 Title: Module 8 Downlink PHY/Control Channels
+5. Which of the following statements is not correct?
+a. The PMCH is introduced in Rel. 9 of LTE; a Rel. 8 UE should know the existence of an MBSFN subframe, but is not required to decode it. 
+b. Control channels provide the PHY signaling to support MAC layer. 
+*c. Control channels are transmitted in the first 1, 2, or 3 symbols of each resource block. 
+d. The time and frequency resources to be used by the UEs in the uplink and the downlink are assigned by the control channels. 
+e. Modulation scheme and coding rate to be used by the UEs are also explicitly signaled to the UEs by the control channels. 
+
+Points: 10 Title: Module 8 Downlink PHY/Control Channels
+6. Which of the following statements is not correct?
+*a. Control channels are responsible for carrying ACK messages corresponding to the downlink data packets transmitted to the UEs. 
+b. Power control commands to increase/decrease uplink transmission powers of the UEs are carried by the control channels. 
+c. Reliability of control channels also affects the cell throughput. 
+d. Control channel messages may be dedicated to a UE, or, may be common to a group of UEs. 
+e. Number of control messages can be reduced through semi-persistent scheduling in VoIP transmissions. 
+
+Points: 10 Title: Module 8 Downlink PHY/Control Channels
+7. Which of the following statements is not correct?
+a. A physical control format indicator channel (PCFICH) indicates the number of OFDM symbols dedicated to control channel in each subframe (1, 2, or 3 symbols)
+b. A UE can normally find the number of OFDM symbols dedicated to control channels blindly, without needing the PCFICH. 
+*c. Control channels are always transmitted in the central six resource blocks (in frequency) of a downlink frame.
+d. PCFICH is carried by the same antenna port as PBCH, and transmit diversity may be used. 
+e. PCFICH transmissions can benefit from frequency diversity. 
+
+Points: 10 Title: Module 8 Downlink PHY/Control Channels
+8. Which of the following statements is not correct?
+a. HARQ messages indicate whether the eNB correctly received uplink transmissions from the UEs. 
+b. The error rate on the physical hybrid ARQ indicator channel (PHICH) is intended to be on the order of 10^-2 for ACK messages and 10^-4 for NACK messages. 
+c. Each PDCCH carries a message called downlink control information (DCI), which includes resource assignments and other control information for a single UE, or for a group of UEs. 
+d. CRC in PDCCH is scrambled with a certain UE's identity, which enables a UE to find the PDCCH that was assigned to itself. 
+*e. UEs always have to search through all the control channel region to find the PDCCH assigned to themselves. 
+
+Points: 10 Title: Module 8 Downlink PHY/Control Channels
+9. Which of the following statements is not correct?
+a. A PDCCH is transmitted using one or more control channel elements (CCE), where each CCE corresponds to nine resource element groups (REG), and each resource element group is composed of four resource elements. 
+b. Four PDCCH formats are supported in LTE, which can carry 1, 2, 4, or 8 CCEs. 
+c. PDCCH symbols are always modulated with QPSK modulation to achieve robustness. 
+*d. One CCE in LTE can carry 144 PDCCH bits. 
+e. DCI format in LTE can change depending on the PDSCH mode in which a particular UE will be scheduled. 
+
+Points: 10 Title: Module 8 Downlink PHY/Control Channels
+10. Which of the following statements is not correct?
+a. One of the major functions of the PDCCHs is to indicate the frequency domain resource allocation in each subframe. 
+*b. PDCCH always uses a bitmap to each UE, which captures whether a specific individual RB is assigned to a UE or not. 
+c. PDCCH may address resource block groups, whose size varies with the downlink bandwidth. 
+d. Addressing a group of resource blocks through PDCCH, rather than individual resource blocks, decreases the control signaling overhead. 
+e. How to use PDCCH for resource allocation purposes depends on the algorithms implemented at an eNB.
